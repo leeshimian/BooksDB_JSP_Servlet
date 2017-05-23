@@ -18,7 +18,8 @@ TOMCAT:  tomcat7.0.69
 本程序数据库中没有单独的id字段，程序的查找是依据各“ *ID ”
 故修改表内容的时候不要修改各“ *ID ”
 
-本网站目前使用JSP+JavaBean实现
+本网站借书还书部分依然使用纯JSP实现
+其他功能使用JSP+Servlet实现
 
 /src  java源代码
 /web  网页源代码
